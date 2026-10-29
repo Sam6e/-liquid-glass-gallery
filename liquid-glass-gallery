@@ -1,0 +1,17 @@
+name: liquid_glass_app
+description: A stunning liquid glass local gallery and media app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  photo_manager: ^3.0.0 # Handles local device photo/video scanning
+  permission_handler: ^11.0.0 # Manages storage and gallery permissions safely
+
+flutter:
+  uses-material-design: true
